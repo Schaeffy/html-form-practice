@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+
+<body>
+    <h1>
+        The Form
+    </h1>
+
+    <form action="form-handling-url" method="post">
+        <fieldset>
+            <legend>
+                Add user
+            </legend>
+
+            <div>
+                <label for="firstName">First name</label>
+                <input type="text" name="first_name" id="firstName">
+            </div>
+
+            <div>
+                <label for="lastName">Last name</label>
+                <input type="text" name="last_name" id="lastName">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email_address">
+            </div>
+
+            <div>
+                <label for="status">Status</label>
+                <select name="status" id="user_status">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+            <br>
+            <p>
+                Choose your favorite programming language.
+            </p>
+
+            <div>
+                <input type="radio" id="HTML" name="language_type" value="HTML" checked>
+                <label for="HTML">HTML</label>
+            </div>
+            <div>
+                <input type="radio" id="CSS" name="language_type" value="CSS" checked>
+                <label for="CSS">CSS</label>
+
+            </div>
+            <div>
+                <input type="radio" name="language_type" id="javaScript" value="javaScript">
+                <label for="javaScript">JavaScript</label>
+
+            </div>
+            <br>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" cols="40" rows="8"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="date">Current Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <br>
+
+            <div>
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Sign up for newsletter</label>
+                <br>
+                <input type="checkbox" name="terms_conditions" id="termsConditions">
+                <label for="termsConditions">Agree to terms and conditions</label>
+            </div>
+            <br>
+
+            <div>
+                <button type="submit">
+                    Submit
+
+                </button>
+            </div>
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
